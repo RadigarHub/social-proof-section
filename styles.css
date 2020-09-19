@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    color: hsl(303, 10%, 53%);
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    padding: 0 19px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header .description {
+    margin-bottom: 35px;
+}
+
+.header h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 34px;
+}
+
+.header p {
+    color:hsl(300, 43%, 22%);
+    line-height: 24px;
+}
+
+.rating {
+    margin: 15px 0;
+    padding: 10px 0 15px 0;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+
+.rating .star {
+    width: 101px;
+    height: 31px;
+    background-image: url("./images/icon-star.svg");
+    background-repeat: space;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.rating span {
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.proof {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 35px 30px 15px 30px;
+    margin-top: 15px;
+    font-size: 0.84rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.proof .user {
+    display: flex;
+}
+
+.proof .user-image {
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.proof .user-image img {
+    width: 40px;
+}
+
+.proof .user-info span {
+    display: block;
+    margin-top: 7px;
+    color: hsl(333, 80%, 67%);
+}
+
+.proof p {
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
