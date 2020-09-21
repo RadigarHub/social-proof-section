@@ -129,6 +129,7 @@ body {
 .rating span {
     margin-top: 5px;
     font-weight: 700;
+    color: hsl(300, 43%, 22%);
 }
 
 @media (min-width: 768px) {
